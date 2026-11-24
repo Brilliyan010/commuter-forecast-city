@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "Good morning, Nimbleville: 14°C, light drizzle, and the 8:04 bus is somehow on time — pack an umbrella and a small victory lap.";
+  "Good morning, Nimbleville: 14°C and drizzle, and the 8:04 bus — early, for once. Pack an umbrella; miracles ride the 8:04 today.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");
